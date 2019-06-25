@@ -1,0 +1,43 @@
+{
+  "name": "back-location",
+  "version": "1.0.0",
+  "description": "location app",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bensalemahmed/Back-Location.git"
+  },
+  "keywords": [
+    "location",
+    "voiture",
+    "car",
+    "rent"
+  ],
+  "author": "Ahmed Ben Salem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bensalemahmed/Back-Location/issues"
+  },
+  "homepage": "https://github.com/bensalemahmed/Back-Location#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "fs": "0.0.1-security",
+    "helmet": "^3.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.1",
+    "multer": "^1.4.1",
+    "nodemailer": "^6.2.1",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
